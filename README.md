@@ -13,17 +13,21 @@
 * ***Multilevel Abstraction:*** It is abstraction done at multiple levels.
 
 ```
-+-------------------+
-|                   |
-+-------------------+
-|                   |
-+-------------------+
-|                   |
-+-------------------+
-|                   |
-+-------------------+
-|                   |
-+-------------------+
-|                   |
-+-------------------+
++------------------+
+|       User       |
++------------------+
+| User Application | __
++------------------+  |
+|System Application|  |
++------------------+  |
+|  System Utility  |  |--OS Layers
++------------------+  |
+|      Kernel      |  |
++------------------+  |
+|     Hardware     | __
++------------------+ 
 ```
+
+* User gives command to user or system, application(s) interect with system utility, then system utility interect with kernel, and kernel directly interects with Hardware.
+
+* 
