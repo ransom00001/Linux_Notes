@@ -6,6 +6,13 @@
 
 * OS also provides security to users and processes.
 
-* ***Abstraction :-*** It is the process for hiding objects, processes and procedures.
+* OS also provides abstraction.
 
-* 
+* ***Abstraction:*** It is the process for hiding objects, processes and procedures.
+
+* ***Multilevel Abstraction:*** It is abstraction done at multiple levels.
+
+* +-------------------+
+  |                   |
+  |                   |
+  |                   | 
