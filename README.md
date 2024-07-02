@@ -30,4 +30,16 @@
 
 * User gives command to user or system, application(s) interect with system utility, then system utility interect with kernel, and kernel directly interects with Hardware.
 
-* 
+* The Linux kernel contains system calls and device drivens, it is also responsible for core hardware management and process management.
+
+* Linux basesd operating system has two modes of running kernel mode. Kernel space and user mode/space.
+
+* High priority tasks are done by kernel and kernel runs in kernel mode.
+
+* Normal priority tasks are done in user mode.
+
+* The memory is also dynamicly segmented into kernel and user space. Kernel space contains kernel data and user space contains normal process data. Normal process cna never      acess kernel space data and vise-versa.
+
+* Main memory stores program, data, state and user data.
+
+* One
