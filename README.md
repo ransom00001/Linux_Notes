@@ -110,7 +110,7 @@
 >
 > When you entera command into a terminal window, the shell that is running inside the terminal window calls *fork()* to create acopy of the shell, and then the new copy of     the shellcalls*exec(command)* to run command.
 
-```ruby
+```
 +-------------+          +------------+                +-------------+
 |    shell    | ------>  |    fork    |  ----------->  |    shell    |
 +-------------+          +------------+       |        +-------------+
@@ -124,6 +124,39 @@
 ```
 
 * `Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
+
+* The kernel also supports user processes with features other than traditional system calls, the most common of which are pseudodevices. Pseudodevices look like devices to      user processes, but they are implemented purely in software. This means they don't technically need to be the kernel, but are usually there for practical reasons.
+
+* Random number generatet device (/dev /random).
+
+* A user processes that accesses a pseudodevice must use a system call to open the device, so processes can't entirely avoid system calls.
+
+* The main memory that the kernel allocates for user processes is called user space. Because a process is simply a state (or image) in memory, user space also refers to the     memory for the entire collection of running processes.
+
+* Most of the real actions on a linux system happens in user space. Though all processes are essentially equal from the kernel's point of veiw, they perform different tasks     for users.
+
+* Basic services are at the bottom level (closest to the kernel), utility services are in the middle, and applications that are users touch are at the top.
+
+* ***Interface:*** Interface is the way of giving or taking information or objects.
+
+* ***User Pracesses***
+
+```
+
+         +------------------+                     +-----------------+
+         |  user interface  |  <----------------> |   web browser   |
+         +------------------+                     +-----------------+
+             |    |     |                               |    |
+             |    |     |                  +------------+    |
+             |    |     |                  |        +----------------------+
+             |    |     +------------+     |        | name catching server |
+             |    |                  |     |        +----------------------+
+             |    +--------------+   +-----|---------------+      |
+             |                   |         |               |      |
++-----------------------+    +-------------------+    +--------------------+
+| network configuration |    | communication bus |    | diagnostic logging |
++-----------------------+    +-------------------+    +--------------------+
+```
 
 
 
