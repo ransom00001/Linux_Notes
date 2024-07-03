@@ -44,11 +44,13 @@
 
 * One of kernel's tasks is to split memery into many subdivisions.
 
-* The kernel is in charge of managing tasks in four general system areas:
+* ***The kernel is in charge of managing tasks in four general system areas:***
 
 1. ***Processes:*** The kernel is responsible for determining which processes are allowed to use the CPU.
 
-2. ***Memory:*** the kernel needs to keep track of all memory -what is currently allocated 
+2. ***Memory:*** the kernel needs to keep track of all memory -what is currently allocated to a particular process, what might be shared between processes, amd what is free.
+
+3. ***Device Driver:***
 
 
 
