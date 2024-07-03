@@ -50,7 +50,17 @@
 
 2. ***Memory:*** the kernel needs to keep track of all memory -what is currently allocated to a particular process, what might be shared between processes, amd what is free.
 
-3. ***Device Driver:***
+3. ***Device Driver:*** The kernel act as an interface between hardware (such as a device) and processes. It's usually the kernel he kernel's job to operate the hardware.
+
+4. ***System salls and support:*** Processes normally use system calls to communicate with the kernel.
+
+* ***Process management:*** Describes the starting, pausing, resuming, scheduling, and terminating of processes.
+
+* The processes use the CPU for a small fraction of a second, then pauses; then another process uses the CPU for another fraction of a second; then another process takes a       turn, and so on. Each piece of time is called -time size.
+
+* The act of one process giving up control of the CPU to another is called a context switch.
+
+* 
 
 
 
