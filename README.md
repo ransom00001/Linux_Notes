@@ -66,7 +66,11 @@
 
 2. The kernel records the current state of the CPU and memory, which will be essential to resuming the process that was just interrupted.
 
-* 
+3. The kernel performs any tasks that might have come up during the preceding the time slice (such as collecting data from input and output operations.)
+
+4. The kernel is now ready to let another process run. The kernel analyzes the list of processes that are ready to run and one.
+
+5. The kernel prepares the memory for this new process and then prepares the CPU.
 
 
 
