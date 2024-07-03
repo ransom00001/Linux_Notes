@@ -102,7 +102,7 @@
 
 * There are several other kinds of kernel features available to user processes. `*Example:*` System calls (or syscalls) performs specifictasks that a user process alone cannot do well or at all. The acts of operating, reading and writing files all involve system calls.
 
-* Two system calls, fork() and exec()
+* Two system calls, **`fork()`** and **`exec()`**
 
 
 
