@@ -101,7 +101,7 @@
 * To present a uniform interface to user proceses in order to simplify the software developer's job.
 
 * There are several other kinds of kernel features available to user processes.
-          *Example:* System calls (or syscalls) performs specifictasks that a user process alone cannot do well or at all. The acts of operating, reading and writing files               all involve system calls.
+         * *Example:* System calls (or syscalls) performs specifictasks that a user process alone cannot do well or at all. The acts of operating, reading and writing files               all involve system calls.
 
 
 
