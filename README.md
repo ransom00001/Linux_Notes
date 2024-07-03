@@ -72,6 +72,12 @@
 
 5. The kernel prepares the memory for this new process and then prepares the CPU.
 
+6. The kernel tells the CPU how long the time slice will take for the new process will last.
+
+7. The kernel switches the CPU into user mode hands control of the CPU to the process.
+
+* The context switch answers the important question of when the kernel runs. The answer is the it runs between process time slices 
+
 
 
 
