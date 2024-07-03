@@ -60,6 +60,12 @@
 
 * The act of one process giving up control of the CPU to another is called a context switch.
 
+* The kernel is responsible for context switching. To understand how this works, think about a situation in which a processis running in user mode but it's time slice is up . Here what happens:
+
+1. The CPU (the actual hardware) interrupts the current process based on an internal timer, switches into kernel mode, and hands control back to the kernel.
+
+2. The kernel records the current state of the CPU and memory, which will be essential to resuming the process that was just interrupted.
+
 * 
 
 
