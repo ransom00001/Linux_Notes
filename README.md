@@ -38,7 +38,7 @@
 
 * Normal priority tasks are done in user mode.
 
-* The memory is also dynamicly segmented into kernel and user space. Kernel space contains kernel data and user space contains normal process data. Normal process cna never      acess kernel space data and vise-versa.
+* The memory is also dynamicly segmented into kernel and user space. Kernel space contains kernel data and user space contains normal process data. Normal process cna never     acess kernel space data and vise-versa.
 
 * Main memory stores program, data, state and user data.
 
@@ -56,11 +56,11 @@
 
 * ***Process management:*** Describes the starting, pausing, resuming, scheduling, and terminating of processes.
 
-* The processes use the CPU for a small fraction of a second, then pauses; then another process uses the CPU for another fraction of a second; then another process takes a       turn, and so on. Each piece of time is called -time size.
+* The processes use the CPU for a small fraction of a second, then pauses; then another process uses the CPU for another fraction of a second; then another process takes a      turn, and so on. Each piece of time is called -time size.
 
 * The act of one process giving up control of the CPU to another is called a context switch.
 
-* ***The kernel is responsible for context switching. To understand how this works, think about a situation in which a processis running in user mode but it's time slice is up . Here what happens:***
+* ***The kernel is responsible for context switching. To understand how this works, think about a situation in which a processis running in user mode but it's time slice is     up . Here what happens:***
 
 1. The CPU (the actual hardware) interrupts the current process based on an internal timer, switches into kernel mode, and hands control back to the kernel.
 
@@ -100,7 +100,7 @@
 
 * To present a uniform interface to user proceses in order to simplify the software developer's job.
 
-* There are several other kinds of kernel features available to user processes. **Example:** System calls (or syscalls) performs specifictasks that a user process alone cannot do well or at all. The acts of operating, reading and writing files all involve system calls.
+* There are several other kinds of kernel features available to user processes. **Example:** System calls (or syscalls) performs specifictasks that a user process alone         cannot do well or at all. The acts of operating, reading and writing files all involve system calls.
 
 > Two system calls, **`fork()`** and **`exec()`**, are important to understand how processes start:
 >
@@ -108,7 +108,7 @@
 > >
 > > *Exec():* When a process calls *exec(program)*, the kernel leads and starts program, replacing the current process.
 >
-> When you entera command into a terminal window, the shell that is running inside the terminal window calls *fork()* to create acopy of the shell, and then the new copy of the shellcalls*exec(command)* to run command.
+> When you entera command into a terminal window, the shell that is running inside the terminal window calls *fork()* to create acopy of the shell, and then the new copy of     the shellcalls*exec(command)* to run command.
 
 ```ruby
 +-------------+          +------------+                +-------------+
@@ -123,6 +123,7 @@
                                                                                                      +-----------+
 ```
 
+* `Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
 
 
 
