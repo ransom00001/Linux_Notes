@@ -107,6 +107,22 @@
 > > *Fork():* When a process calls *fork()*, the kernel creates a nearly identical copy of the process.
 > >
 > > *Exec():* When a process calls *exec(program)*, the kernel leads and starts program, replacing the current process.
+>
+> When you entera command into a terminal window, the shell that is running inside the terminal window calls *fork()* to create acopy of the shell, and then the new copy of the shellcalls*exec(command)* to run command.
+
+```ruby
++-------------+          +------------+                +-------------+
+|    shell    | ------>  |    fork    |  ----------->  |    shell    |
++-------------+          +------------+       |        +-------------+
+                                              |        +-----------------+          +---------------+
+                                              |----->  |  copy of shell  | ------>  | exec(command) | -----+
+                                                       +-----------------+          +---------------+      |
+                                                                                                           ⌄
+                                                                                                     +-----------+             
+                                                                                                     |  command  |
+                                                                                                     +-----------+
+```
+
 
 
 
