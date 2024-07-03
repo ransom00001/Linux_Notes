@@ -76,7 +76,25 @@
 
 7. The kernel switches the CPU into user mode hands control of the CPU to the process.
 
-* The context switch answers the important question of when the kernel runs. The answer is the it runs between process time slices 
+* The context switch answers the important question of when the kernel runs. The answer is the it runs between process time slices during a context switch.
+
+* The kernel also manage memory during a context switch, which can be a complex job. The following conditions must hold:
+
+1. the kernel must have it's own private area in memory that user process can't acess.
+
+2. Each user process needs it's own section of memory.
+
+3. One user process may not acess the private memory of another process.
+
+4. User proxesses can share memory.
+
+5. Some memory im user processes can be read only.
+
+6. The system can use more memory thst is physically present by using disk space as auxiliary.
+
+7. `Note:` The implementation of a amemory address map is called a page table.
+
+8. 
 
 
 
