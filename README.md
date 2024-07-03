@@ -60,7 +60,7 @@
 
 * The act of one process giving up control of the CPU to another is called a context switch.
 
-* The kernel is responsible for context switching. To understand how this works, think about a situation in which a processis running in user mode but it's time slice is up . Here what happens:
+* ***The kernel is responsible for context switching. To understand how this works, think about a situation in which a processis running in user mode but it's time slice is up . Here what happens:***
 
 1. The CPU (the actual hardware) interrupts the current process based on an internal timer, switches into kernel mode, and hands control back to the kernel.
 
@@ -78,7 +78,7 @@
 
 * The context switch answers the important question of when the kernel runs. The answer is the it runs between process time slices during a context switch.
 
-* The kernel also manage memory during a context switch, which can be a complex job. The following conditions must hold:
+* ***The kernel also manage memory during a context switch, which can be a complex job. The following conditions must hold:**
 
 1. the kernel must have it's own private area in memory that user process can't access.
 
@@ -94,7 +94,14 @@
 
 * `Note:` The implementation of a amemory address map is called a page table.
  
-* A device is typically accessible only in kernel mode because improper access (such asa user process asking to turn off the power) could
+* A device is typically accessible only in kernel mode because improper access (such asa user process asking to turn off the power) could crash the machine.
+
+* The different devices rarely have the same programing interface.
+
+* To present a uniform interface to user proceses in order to simplify the software developer's job.
+
+* There are several other kinds of kernel features available to user processes.
+          *Example:* System calls (or syscalls) performs specifictasks that a user process alone cannot do well or at all. The acts of operating, reading and writing files               all involve system calls.
 
 
 
