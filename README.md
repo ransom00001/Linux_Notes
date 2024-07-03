@@ -12,7 +12,7 @@
 
 * ***Multilevel Abstraction:*** It is abstraction done at multiple levels.
 
-```java
+```go
 +------------------+
 |       User       |
 +------------------+
