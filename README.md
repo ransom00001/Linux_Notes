@@ -122,7 +122,7 @@
                                                                                                      |  command  |
                                                                                                      +-----------+
 ```
-
+            
 * `Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
 
 * The kernel also supports user processes with features other than traditional system calls, the most common of which are pseudodevices. Pseudodevices look like devices to      user processes, but they are implemented purely in software. This means they don't technically need to be the kernel, but are usually there for practical reasons.
@@ -162,6 +162,34 @@
 | network configuration |       | diagnostic logging |
 +-----------------------+       +--------------------+
 ```
+
+* Linux is a unix flavour at heart.
+
+###### The Bourne Shell: /bin/sh
+
+* The shell is one of the most important parts of a umix system. A shell is a progeam that runs command. These commands can be other programs or built -in features of the       shell.
+
+* We can also create our own commands.
+
+* ***Shell Scripts:*** Text files that contains a sequence of shell commands
+
+* There are many different Unix shells, but all derives features from the  bourne shell (/bin/sh).
+
+`For more details about Unix for beginners than you’ll find here, consider reading The Linux Command Line, 2nd edition (No Starch Press, 2019), UNIX for the Impatient, 2nd edition (Addison-Wesley Professional, 1995), and Learning the UNIX Operating System, 5th edition (O’Reilly, 2001).`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
