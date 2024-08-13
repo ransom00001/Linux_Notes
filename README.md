@@ -202,10 +202,10 @@
 * standard output is similar. The kernel gives each process a output stream where it can write it's output. The cat command always wriets it's output to the standard output. When you ran catin the terminal, standard output was connected to that terminal, so that where you saw the output.
 
 ```
-                                           +-------+  
-                                           | LINUX |
-                                           +-------+
-                                               |
+                                         +-------+  
+                                         | LINUX |
+                                         +-------+
+                                             |
    +--------+-------+-------+-------+--------+--------+-------+-------+-------+-------+
    |        |       |       |       |        |        |       |       |       |       |
  /boot    /dev    /usr    /bin    /sbin    /home    /lib    /tmp    /var    /etc    /proc
