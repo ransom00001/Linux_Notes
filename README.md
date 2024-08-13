@@ -295,6 +295,12 @@
 
 * ***bits:*** binary digits (0 and 1)
 
+* ***ls -l:*** long listed information of files.
+
+* ***pwd command:*** tells where we are.
+
+* grub: it is a boot loader and boot manager for Linux operating system. Grub stands for "Grand Unified Bootloader". Grub starts after BIOs finishes hardware tests. BIOs stands for "Basic Input Output system". Grub folder -> "etc/default".
+
 
 
 
