@@ -177,19 +177,45 @@
 
 `For more details about Unix for beginners than you’ll find here, consider reading The Linux Command Line, 2nd edition (No Starch Press, 2019), UNIX for the Impatient, 2nd edition (Addison-Wesley Professional, 1995), and Learning the UNIX Operating System, 5th edition (O’Reilly, 2001).`
 
+* Every unix system needs a version of the  bourne shell in order to funtion correctly.
 
+* Limux uses an enhanced version of the bourne shell called bash or the "bourne-again" shell.
 
+* `Note:` the bash shell is the default shell on most Linux distribution, and /bin/sh is a link to bash on a Linux system.
 
+* ***Echo command:*** echo is a Linux/Unix command tool used for displaying lines of text or string which are passed as argument on the command line.
 
+* ***Argument in command:*** command usually begin with a program to run and may be followed by arguments that tell the program what to operate and how to do so.
 
+* ***Cat command:*** the cat command reads each file parameter in sequence and write it to standard output.
 
+* `Note:` many arguments are options that modifi the default behavior of a program and typically begin with a dash (-).
 
+* The cat program simply outputs the contents of one or more files or another source of input.
 
+* Unix processes use I/O streams to read and write data. processes read data from input streams and writes to output streams.
 
+* `Note:` in linux and conputer programing in general, standard streams are input and output (I/O) communication channels betwween a program and it's environment.
 
+* Cat reads from the standard input streams provided by the Linux kernel rather then a stream connected to a file, the standard input is connected to the terminal where you run cat.
 
+* standard output is similar. The kernel gives each process a output stream where it can write it's output. The cat command always wriets it's output to the standard output. When you ran catin the terminal, standard output was connected to that terminal, so that where you saw the output.
 
-
+  ```
+                                           +-------+  
+                                           | LINUX |
+                                           +-------+
+                                               |
+   +--------+-------+-------+-------+--------+--------+-------+-------+-------+-------+
+   |        |       |       |       |        |        |       |       |       |       |
+ /boot    /dev    /usr    /bin    /sbin    /home    /lib    /tmp    /var    /etc    /proc
+                    |                        |
+              +-----------+             +---------+
+              |           |             |         |
+           local        /bin          user1     user2...
+              |
+            /bin
+```
 
 
 
