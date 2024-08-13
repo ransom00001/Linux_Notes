@@ -216,6 +216,85 @@
               |
             /bin
 ```
+* The Linux file system is a cryptic labyrinth of directories defined by the the filesystem hierarchy standard.
+
+* A Linux file system can have miltiple users on a computer.
+
+* ***cd command:*** change directory.
+
+* ***ls command:*** (lists contents). With ls command we can list out the contents of a directory.
+
+* ***/bin command:*** bin directory which stands for 'binary' includes basic binaries that are required for the system's basic funtions.
+
+* ***Binaries:*** bin directories in Linux are dedicated areas for storing executable files.
+
+* ***Executable files:*** an executable file is one which can be run as a program.
+
+* Binaries or executables are essentialto the entire operating system, you can run these binaries from the command line at any time.
+
+* ***sbin directories:*** system binaries that should only be executed by the root user.
+
+* ***root user:*** The special user in the /etc /passwd file with the user ID [UID]of [0].
+
+* ***/lib directory:*** many of the directories may share common libraries which are stored in the lib directory.'
+
+* ***boot directory:*** to load operating system files into main memory is known as booting.
+
+* ***dev directory:*** (device files). here you can interface with hardware or drivers.
+
+* ***var directory:*** store log files and cache files.
+
+* ***proc directory:*** keep track of running processes but don't really exist.
+
+* ***forward /:*** root directory.
+
+* ***/root directory:*** root user can use only.
+
+* ***/home directory:*** home directory is a personal directory assigned to a user on a Unix or Linux- based system.
+
+* ***/bin:*** binaries -> commands that are essential to operate an system.
+
+* ***/sbin:*** system binaries -> only root user can use it. Only used for major changes in configuration file or for system maintanence.
+
+* ***/proc:*** process information -> all the processes exist in the directory.
+
+* ***/boot:*** boot loader files.
+
+* ***/dev:*** device files ->            /dev
+                                           |
+                                +----------+-------------+
+                                |          |             |
+                             files    directories   device files
+
+1. Files -> plain text files.......
+2. Directories -> (folders).
+3. Device files -> special type of files -> interface between hardware and software.
+
+* ***/mnt:*** (mount directories) -> it shows external storage device data.
+  EX: hardware, pendrive, etc.
+
+* ***/media:*** (removable device files) -> EX: data of pendrive will show in media directory.
+
+* ***/etc:*** (editable text configuration).
+
+* ***/srv:*** (service data).
+
+* ***/sys:***  (system). all system data like kernel, hardware.
+
+* ***/lib:*** (system libraries).
+
+* ***/tmp:*** (temporary files).
+
+* ***/usr:*** (user programs).
+
+* ***/var:*** (variable files).
+
+* ***/opt:*** (optional applications).
+
+* ***ls -al:*** displays detailed and hidden information of files.
+
+* ***bits:*** binary digits (0 and 1)
+
 
 
 
