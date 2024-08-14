@@ -100,7 +100,7 @@
 
 * To present a uniform interface to user proceses in order to simplify the software developer's job.
 
-* There are several other kinds of kernel features available to user processes. **Example:** System calls (or syscalls) performs specifictasks that a user process alone         cannot do well or at all. The acts of operating, reading and writing files all involve system calls.
+* There are several other kinds of kernel features available to user processes. **Example:** System calls (or syscalls) performs specifictasks that a user process alone cannot do well or at all. The acts of operating, reading and writing files all involve system calls.
 
 > Two system calls, **`fork()`** and **`exec()`**, are important to understand how processes start:
 >
@@ -295,11 +295,6 @@
 
 * ***bits:*** binary digits (0 and 1)
 
-* ***ls -l:*** long listed information of files.
-
-* ***pwd command:*** tells where we are.
-
-* grub: it is a boot loader and boot manager for Linux operating system. Grub stands for "Grand Unified Bootloader". Grub starts after BIOs finishes hardware tests. BIOs stands for "Basic Input Output system". Grub folder -> "etc/default".
 
 
 
