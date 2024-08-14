@@ -92,7 +92,7 @@
 
 6. The system can use more memory thst is physically present by using disk space as auxiliary.
 
-* `Note:` The implementation of a amemory address map is called a page table.
+* >`Note:` The implementation of a amemory address map is called a page table.
  
 * A device is typically accessible only in kernel mode because improper access (such asa user process asking to turn off the power) could crash the machine.
 
@@ -123,7 +123,7 @@
                                                                                                      +-----------+
 ```
             
-* `Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
+* >`Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
 
 * The kernel also supports user processes with features other than traditional system calls, the most common of which are pseudodevices. Pseudodevices look like devices to      user processes, but they are implemented purely in software. This means they don't technically need to be the kernel, but are usually there for practical reasons.
 
@@ -175,13 +175,13 @@
 
 * There are many different Unix shells, but all derives features from the  bourne shell (/bin/sh).
 
-`For more details about Unix for beginners than you’ll find here, consider reading The Linux Command Line, 2nd edition (No Starch Press, 2019), UNIX for the Impatient, 2nd edition (Addison-Wesley Professional, 1995), and Learning the UNIX Operating System, 5th edition (O’Reilly, 2001).`
+>`For more details about Unix for beginners than you’ll find here, consider reading The Linux Command Line, 2nd edition (No Starch Press, 2019), UNIX for the Impatient, 2nd edition (Addison-Wesley Professional, 1995), and Learning the UNIX Operating System, 5th edition (O’Reilly, 2001).`
 
 * Every unix system needs a version of the  bourne shell in order to funtion correctly.
 
 * Limux uses an enhanced version of the bourne shell called bash or the "bourne-again" shell.
 
-* `Note:` the bash shell is the default shell on most Linux distribution, and /bin/sh is a link to bash on a Linux system.
+* >`Note:` the bash shell is the default shell on most Linux distribution, and /bin/sh is a link to bash on a Linux system.
 
 * ***Echo command:*** echo is a Linux/Unix command tool used for displaying lines of text or string which are passed as argument on the command line.
 
@@ -189,13 +189,13 @@
 
 * ***Cat command:*** the cat command reads each file parameter in sequence and write it to standard output.
 
-* `Note:` many arguments are options that modify the default behavior of a program and typically begin with a dash (-).
+* >`Note:` many arguments are options that modify the default behavior of a program and typically begin with a dash (-).
 
 * The cat program simply outputs the contents of one or more files or another source of input.
 
 * Unix processes use I/O streams to read and write data. processes read data from input streams and writes to output streams.
 
-* `Note:` in linux and conputer programing in general, standard streams are input and output (I/O) communication channels betwween a program and it's environment.
+* >`Note:` in linux and conputer programing in general, standard streams are input and output (I/O) communication channels betwween a program and it's environment.
 
 * Cat reads from the standard input streams provided by the Linux kernel rather then a stream connected to a file, the standard input is connected to the terminal where you run cat.
 
@@ -230,7 +230,7 @@
 
 * ***Executable files:*** an executable file is one which can be run as a program.
 
-* Binaries or executables are essentialto the entire operating system, you can run these binaries from the command line at any time.
+* Binaries or executables are essential to the entire operating system, you can run these binaries from the command line at any time.
 
 * ***sbin directories:*** system binaries that should only be executed by the root user.
 
@@ -290,8 +290,6 @@
 * ***/var:*** (variable files).
 
 * ***/opt:*** (optional applications).
-
-* ***ls -al:*** displays detailed and hidden information of files.
 
 * ***bits:*** binary digits (0 and 1)
 
