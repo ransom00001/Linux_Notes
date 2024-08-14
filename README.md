@@ -189,7 +189,7 @@
 
 * ***Cat command:*** the cat command reads each file parameter in sequence and write it to standard output.
 
-* `Note:` many arguments are options that modifi the default behavior of a program and typically begin with a dash (-).
+* `Note:` many arguments are options that modify the default behavior of a program and typically begin with a dash (-).
 
 * The cat program simply outputs the contents of one or more files or another source of input.
 
@@ -199,7 +199,7 @@
 
 * Cat reads from the standard input streams provided by the Linux kernel rather then a stream connected to a file, the standard input is connected to the terminal where you run cat.
 
-* standard output is similar. The kernel gives each process a output stream where it can write it's output. The cat command always wriets it's output to the standard output. When you ran catin the terminal, standard output was connected to that terminal, so that where you saw the output.
+* standard output is similar. The kernel gives each process a output stream where it can write it's output. The cat command always writes it's output to the standard output. When you ran catin the terminal, standard output was connected to that terminal, so that where you saw the output.
 
 ```
                                          +-------+  
