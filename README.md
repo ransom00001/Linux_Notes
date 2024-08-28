@@ -201,6 +201,8 @@
 
 * standard output is similar. The kernel gives each process a output stream where it can write it's output. The cat command always writes it's output to the standard output. When you ran catin the terminal, standard output was connected to that terminal, so that where you saw the output.
 
+## Linux Structure
+
 ```
                                          +-------+  
                                          | LINUX |
@@ -219,12 +221,6 @@
 * The Linux file system is a cryptic labyrinth of directories defined by the the filesystem hierarchy standard.
 
 * A Linux file system can have miltiple users on a computer.
-
-* ***cd command:*** change directory.
-
-* ***ls command:*** (lists contents). With ls command we can list out the contents of a directory.
-
-* ***/bin command:*** bin directory which stands for 'binary' includes basic binaries that are required for the system's basic funtions.
 
 * ***Binaries:*** bin directories in Linux are dedicated areas for storing executable files.
 
@@ -293,10 +289,15 @@
 
 * ***bits:*** binary digits (0 and 1)
 
+## Commands
 
+* ***pwd command:*** This command shows where we are.
 
+* ***sudo su command:*** This command makes you a *Root user*
+  
+* ***cd command:*** change directory.
 
-
+* ***ls command:*** (lists contents). With ls command we can list out the contents of a directory.
 
 
 
