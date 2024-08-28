@@ -305,15 +305,15 @@
   
 * ***cd command:*** change directory.
 
-* ***cd .. :***
+* ***cd .. or cd ../ :***
 
 * ***cd - :***
-
-* ***cd --help:***
 
 * ***cd ../.. :***
 
 * ***cd ~ :***
+
+* * ***cd --help:***
 
 * ***ls:*** (lists contents). With ls command we can list out the contents of a directory.
 
