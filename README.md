@@ -295,13 +295,60 @@
 
 #### Commands
 
-* ***pwd command:*** This command shows where we are.
+* ***pwd:*** This command shows where we are.
 
-* ***sudo su command:*** This command makes you a *Root user*
+* ***sudo su:*** This command makes you a *Root user*
   
 * ***cd command:*** change directory.
 
-* ***ls command:*** (lists contents). With ls command we can list out the contents of a directory.
+* ***cd .. :***
+
+* ***cd - :***
+
+* ***cd --help:***
+
+* ***cd ../.. :***
+
+* ***cd ~ :***
+
+* ***ls:*** (lists contents). With ls command we can list out the contents of a directory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
