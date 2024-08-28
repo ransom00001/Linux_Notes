@@ -260,12 +260,16 @@
 
 * ***/boot:*** boot loader files.
 
-* ***/dev:*** device files ->            /dev
+* ***/dev:*** device files ->
+
+```
+                                         /dev
                                            |
                                 +----------+-------------+
                                 |          |             |
                              files    directories   device files
 
+```
 1. Files -> plain text files.......
 2. Directories -> (folders).
 3. Device files -> special type of files -> interface between hardware and software.
