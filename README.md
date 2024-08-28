@@ -222,25 +222,29 @@
 
 * A Linux file system can have miltiple users on a computer.
 
-* ***Binaries:*** bin directories in Linux are dedicated areas for storing executable files.
+* >`Note:` * ***root user:*** The special user in the /etc /passwd file with the user ID [UID]of [0]
 
-* ***Executable files:*** an executable file is one which can be run as a program.
+* *Binaries:* bin directories in Linux are dedicated areas for storing executable files.
+
+* *Executable files:* an executable file is one which can be run as a program.
 
 * Binaries or executables are essential to the entire operating system, you can run these binaries from the command line at any time.
 
-* ***sbin directories:*** system binaries that should only be executed by the root user.
+### Directories
 
-* ***root user:*** The special user in the /etc /passwd file with the user ID [UID]of [0].
+* * ***/bin directories:*** binaries -> commands that are essential to operate an system.
+
+* ***/sbin directories:*** system binaries that should only be executed by the root user.
 
 * ***/lib directory:*** many of the directories may share common libraries which are stored in the lib directory.'
 
-* ***boot directory:*** to load operating system files into main memory is known as booting.
+* ***/boot directory:*** to load operating system files into main memory is known as booting.
 
-* ***dev directory:*** (device files). here you can interface with hardware or drivers.
+* ***/dev directory:*** (device files). here you can interface with hardware or drivers.
 
-* ***var directory:*** store log files and cache files.
+* ***/var directory:*** store log files and cache files.
 
-* ***proc directory:*** keep track of running processes but don't really exist.
+* ***/proc directory:*** keep track of running processes but don't really exist.
 
 * ***forward /:*** root directory.
 
@@ -287,9 +291,9 @@
 
 * ***/opt:*** (optional applications).
 
-* ***bits:*** binary digits (0 and 1)
+* >`Note:` *bits:* binary digits (0 and 1)
 
-## Commands
+#### Commands
 
 * ***pwd command:*** This command shows where we are.
 
