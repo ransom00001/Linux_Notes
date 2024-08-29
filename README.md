@@ -92,7 +92,7 @@
 
 6. The system can use more memory thst is physically present by using disk space as auxiliary.
 
-* >`Note:` The implementation of a amemory address map is called a page table.
+>*`Note:` The implementation of a amemory address map is called a page table.
  
 * A device is typically accessible only in kernel mode because improper access (such asa user process asking to turn off the power) could crash the machine.
 
