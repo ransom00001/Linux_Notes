@@ -92,7 +92,7 @@
 
 6. The system can use more memory thst is physically present by using disk space as auxiliary.
 
->*`Note:` The implementation of a amemory address map is called a page table.
+  >`Note:` The implementation of a amemory address map is called a page table.
  
 * A device is typically accessible only in kernel mode because improper access (such asa user process asking to turn off the power) could crash the machine.
 
@@ -123,7 +123,7 @@
                                                                                                      +-----------+
 ```
             
-* >`Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
+  >`Note:` The process asking the kernel to create another process must perform a *fork()* system call. This notation derives from the way the call would be written in the C      programming language.
 
 * The kernel also supports user processes with features other than traditional system calls, the most common of which are pseudodevices. Pseudodevices look like devices to      user processes, but they are implemented purely in software. This means they don't technically need to be the kernel, but are usually there for practical reasons.
 
@@ -181,7 +181,7 @@
 
 * Limux uses an enhanced version of the bourne shell called bash or the "bourne-again" shell.
 
-* >`Note:` the bash shell is the default shell on most Linux distribution, and /bin/sh is a link to bash on a Linux system.
+  >`Note:` the bash shell is the default shell on most Linux distribution, and /bin/sh is a link to bash on a Linux system.
 
 * ***Echo command:*** echo is a Linux/Unix command tool used for displaying lines of text or string which are passed as argument on the command line.
 
@@ -189,13 +189,13 @@
 
 * ***Cat command:*** the cat command reads each file parameter in sequence and write it to standard output.
 
-* >`Note:` many arguments are options that modify the default behavior of a program and typically begin with a dash (-).
+  >`Note:` many arguments are options that modify the default behavior of a program and typically begin with a dash (-).
 
 * The cat program simply outputs the contents of one or more files or another source of input.
 
 * Unix processes use I/O streams to read and write data. processes read data from input streams and writes to output streams.
 
-* >`Note:` in linux and conputer programing in general, standard streams are input and output (I/O) communication channels betwween a program and it's environment.
+  >`Note:` in linux and conputer programing in general, standard streams are input and output (I/O) communication channels betwween a program and it's environment.
 
 * Cat reads from the standard input streams provided by the Linux kernel rather then a stream connected to a file, the standard input is connected to the terminal where you run cat.
 
@@ -222,7 +222,7 @@
 
 * A Linux file system can have miltiple users on a computer.
 
-* >`Note:` * ***root user:*** The special user in the /etc /passwd file with the user ID [UID]of [0]
+  >`Note:` * ***root user:*** The special user in the /etc /passwd file with the user ID [UID]of [0]
 
 * *Binaries:* bin directories in Linux are dedicated areas for storing executable files.
 
@@ -295,7 +295,7 @@
 
 * ***/opt:*** (optional applications).
 
-* >`Note:` *bits:* binary digits (0 and 1)
+  >`Note:` *bits:* binary digits (0 and 1)
 
 #### Commands
 
