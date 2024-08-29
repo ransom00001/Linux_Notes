@@ -313,7 +313,11 @@
 
 * ***cd ~ :***
 
-* * ***cd --help:***
+* ***cd --help:***
+ 
+* `To create a New File- 'nano (file name)' will help.`
+ 
+##### ls commands
 
 * ***ls:*** (lists contents). With ls command we can list out the contents of a directory.
 
