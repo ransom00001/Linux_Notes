@@ -321,6 +321,8 @@
 
 * ***ls:*** (lists contents). With ls command we can list out the contents of a directory.
 
+ls syntax
+
 
 
 
