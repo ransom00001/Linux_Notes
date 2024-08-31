@@ -316,6 +316,8 @@
 * ***cd --help:*** This command will take you to the help page of cd command.
  
 * `To create a New File- 'nano (file name)' will help.`
+
+* ***history:*** Previous commands will be displayedon your screen.
  
 ##### ls commands
 
