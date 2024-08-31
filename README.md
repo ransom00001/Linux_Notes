@@ -305,15 +305,15 @@
   
 * ***cd command:*** change directory.
 
-* ***cd .. or cd ../ :***
+* ***cd .. or cd ../ :*** If you want to go back one directory or more directories this command will take you back one by one if you don't want to type the entie command to go to the directory you want to go.
  
-* ***cd ../.. :***
+* ***cd ../.. :*** cd followed by "../.." gets us back two directoires, you can chain those as far back as your system will allow, like "../../.." .
  
-* ***cd - :***
+* ***cd - :*** This command sends us to the last directory we were in.
 
-* ***cd ~ :***
+* ***cd ~ or cd:*** This command will take you to your default working directory.
 
-* ***cd --help:***
+* ***cd --help:*** This command will take you to the help page of cd command.
  
 * `To create a New File- 'nano (file name)' will help.`
  
@@ -323,17 +323,22 @@
 
 ls syntax
 
-|   ls   |  Options  |    Work                                                                      |
-|--------|-----------|------------------------------------------------------------------------------|
-|   ls   |    -l     |  displays detailed information about files and directories.                  |
-|   ls   |    -a     |  displays all files and directories including hidden files and directories.  |
-|   ls   |    -d     |  lists directories themselves.                                               |
-|   ls   |    -g     |  displays files and directories with group ownership.                        |
-|   ls   |    -h     |  print file sizes in human-readable formate. (Eg: 1K, 234M,2G).              |
-|   ls   |    -i     |  displays files and directories with index number.                           |
-|   ls   |    -p     |  it marks a slash in front of directories.                                   |
-|   ls   |    -r     |  display the reverse order of the default order of listing.                  |
+|  S.No  |   ls   |  Options  |    Work                                                                      |
+|--------|--------|-----------|------------------------------------------------------------------------------|
+|   1.   |   ls   |    -l     |  displays detailed information about files and directories.                  |
+|   2.   |   ls   |    -a     |  displays all files and directories including hidden files and directories.  |
+|   3.   |   ls   |    -d     |  lists directories themselves.                                               |
+|   4.   |   ls   |    -g     |  displays files and directories with group ownership.                        |
+|   5.   |   ls   |    -h     |  print file sizes in human-readable formate. (Eg: 1K, 234M,2G).              |
+|   6.   |   ls   |    -i     |  displays files and directories with index number.                           |
+|   7.   |   ls   |    -p     |  it marks a slash in front of directories.                                   |
+|   8.   |   ls   |    -r     |  display the reverse order of the default order of listing.                  |
+|   9.   |   ls   |    -R     |  lists files and directories recursively including subdirectories.           |
+|  10.   |   ls   |    -s     |  shows the size of files and directories.                                    |
+|  11.   |   ls   |    -S     |  sort files and directories by their sizes, and lists large files firsts.    |
+|  12.   |   ls   |    -t     |  sort files and directories by their last modification time.                 |
 
+*
 
 
 
