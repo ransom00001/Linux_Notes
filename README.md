@@ -325,7 +325,6 @@ ls syntax
 
 +---------------------------------------------------------------------------------------------------+
 |   ls   |  Options  |    Work                                                                      |
-||
 |   ls   |    -l     |  displays detailed information about files and directories.                  |
 |--------|-----------|------------------------------------------------------------------------------|
 |   ls   |    -a     |  displays all files and directories including hidden files and directories.  |
