@@ -323,7 +323,7 @@
 
 ls syntax
 
-|  S.No  |   ls   |  Options  |    Work                                                                      |
+|  S.No  |   ls   |  Options  |    Effect                                                                     |
 |--------|--------|-----------|------------------------------------------------------------------------------|
 |   1.   |   ls   |    -l     |  displays detailed information about files and directories.                  |
 |   2.   |   ls   |    -a     |  displays all files and directories including hidden files and directories.  |
