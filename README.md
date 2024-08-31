@@ -323,20 +323,20 @@
 
 ls syntax
 
-|  S.No  |   ls   |  Options  |    Effect                                                                     |
-|--------|--------|-----------|------------------------------------------------------------------------------|
-|   1.   |   ls   |    -l     |  displays detailed information about files and directories.                  |
-|   2.   |   ls   |    -a     |  displays all files and directories including hidden files and directories.  |
-|   3.   |   ls   |    -d     |  lists directories themselves.                                               |
-|   4.   |   ls   |    -g     |  displays files and directories with group ownership.                        |
-|   5.   |   ls   |    -h     |  print file sizes in human-readable formate. (Eg: 1K, 234M,2G).              |
-|   6.   |   ls   |    -i     |  displays files and directories with index number.                           |
-|   7.   |   ls   |    -p     |  it marks a slash in front of directories.                                   |
-|   8.   |   ls   |    -r     |  display the reverse order of the default order of listing.                  |
-|   9.   |   ls   |    -R     |  lists files and directories recursively including subdirectories.           |
-|  10.   |   ls   |    -s     |  shows the size of files and directories.                                    |
-|  11.   |   ls   |    -S     |  sort files and directories by their sizes, and lists large files firsts.    |
-|  12.   |   ls   |    -t     |  sort files and directories by their last modification time.                 |
+|  S.No  |  Options  |    Effect                                                                     |
+|--------|-----------|------------------------------------------------------------------------------|
+|   1.   |    -l     |  displays detailed information about files and directories.                  |
+|   2.   |    -a     |  displays all files and directories including hidden files and directories.  |
+|   3.   |    -d     |  lists directories themselves.                                               |
+|   4.   |    -g     |  displays files and directories with group ownership.                        |
+|   5.   |    -h     |  print file sizes in human-readable formate. (Eg: 1K, 234M,2G).              |
+|   6.   |    -i     |  displays files and directories with index number.                           |
+|   7.   |    -p     |  it marks a slash in front of directories.                                   |
+|   8.   |    -r     |  display the reverse order of the default order of listing.                  |
+|   9.   |    -R     |  lists files and directories recursively including subdirectories.           |
+|  10.   |    -s     |  shows the size of files and directories.                                    |
+|  11.   |    -S     |  sort files and directories by their sizes, and lists large files firsts.    |
+|  12.   |    -t     |  sort files and directories by their last modification time.                 |
 
 *
 
