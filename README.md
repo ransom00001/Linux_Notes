@@ -306,9 +306,9 @@
 * ***cd command:*** change directory.
 
 * ***cd .. or cd ../ :***
-* 
+ 
 * ***cd ../.. :***
-* 
+ 
 * ***cd - :***
 
 * ***cd ~ :***
@@ -323,12 +323,15 @@
 
 ls syntax
 
-
-
-
-
-
-
++-----------------------------------------------------------------------------------+
+|   ls   |  Options  |    Work                                                      |
++--------+-----------+--------------------------------------------------------------+
+|   ls   |    -l     |  displays detailed information about files and directories.  |
+|   ls   |    -a     |  displays all files and directories including hidden files and directories.  |
+|   ls   |    -d     |  lists directories themselves.
+|   ls   |    -g     |  displays files and directories with group ownership.  |
+|   ls   |    -h     |  
+|   ls   |    -i     |  
 
 
 
