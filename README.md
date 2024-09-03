@@ -78,7 +78,7 @@
 
 * The context switch answers the important question of when the kernel runs. The answer is the it runs between process time      slices during a context switch.
 
-* ***The kernel also manage memory during a context switch, which can be a complex job. The following conditions must hold:**
+* ***The kernel also manage memory during a context switch, which can be a complex job. The following conditions must hold:***
 
 1. the kernel must have it's own private area in memory that user process can't access.
 
